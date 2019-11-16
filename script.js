@@ -19,9 +19,9 @@ $.ajax(detectionRequest).done(function (response) {
 	//	var prependedText = '<img id="theImg"' + " " + 'src=' + '"' + searchTerm + '"' + ' />';
 
 	//Display the response information in a div.
-	var prependedText = '<img id="theImg" style="height:250px; width: 250px; top:130% !important;" class="wrap"  ' + " " + 'src=' + '"' + searchTerm + '"' + ' />';
+	var prependedText = '<img id="theImg" style="height:250px; width: 250px; top:15% !important;" class="wrap"  ' + " " + 'src=' + '"' + searchTerm + '"' + ' />';
 	$("#pictureSent").prepend(prependedText);
-	
+	$("#resultText").text("Number of faces detected: " + response.faces.length);
 });
 
   });
