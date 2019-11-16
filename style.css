@@ -48,7 +48,6 @@ img {
 
 .searchtitle {
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 
 .search {
@@ -71,7 +70,6 @@ img {
 .searchTerm:focus {
   color: #00B4CC;
 }
-
 
 .searchButton {
   width: 40px;
